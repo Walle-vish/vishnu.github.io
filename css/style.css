@@ -8112,11 +8112,6 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important; }
   .container {
     min-width: 992px !important; }
-.container .vish {
-  background-image: url('images/bg_1.png');
-  background-size: cover;
-  background-position: center;
-}
   .navbar {
     display: none; }
   .badge {
@@ -8438,19 +8433,14 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider {
     position: relative;
     height: 750px;
-    z-index: 0;
--ms-touch-action: auto;
-        touch-action: auto; }
+    z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       height: 750px;
       position: relative;
-      z-index: 0;
-	-ms-touch-action: auto;
-        touch-action: auto;
- 	-webkit-overflow-scrolling: touch; }
+      z-index: 0; }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
@@ -8461,9 +8451,7 @@ h1, h2, h3, h4, h5,
         left: 0;
         right: 0;
         background: #000000;
-        opacity: 0;
-	-ms-touch-action: auto;
-        touch-action: auto; }
+        opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 750px;
         z-index: 0; }
