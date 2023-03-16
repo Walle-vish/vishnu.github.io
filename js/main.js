@@ -8,11 +8,6 @@
 
 
 $(function () {
-$('.home-slider').owlCarousel({
-    // other options for your slider
-    touchDrag: false,
-    mouseDrag: false
-  });
 
     $(window).on('scroll', function () {
       fnOnScroll();
@@ -168,6 +163,8 @@ $('.home-slider').owlCarousel({
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
+	    touchDrag: false,
+       	    mouseDrag: false,
 	    nav:false,
 	    autoplayHoverPause: false,
 	    items: 1,
