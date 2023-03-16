@@ -6,8 +6,13 @@
 (function($) {
 
 
-$(function () {
 
+$(function () {
+$('.home-slider').owlCarousel({
+    // other options for your slider
+    touchDrag: false,
+    mouseDrag: false
+  });
 
     $(window).on('scroll', function () {
       fnOnScroll();
